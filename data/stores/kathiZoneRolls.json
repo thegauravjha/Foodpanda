@@ -1,0 +1,1554 @@
+{
+  "statusCode": 0,
+  "data": {
+    "statusMessage": "done successfully",
+    "cards": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.TextBoxV2",
+            "text": "Kaati Zone Rolls & Wraps",
+            "headerStyling": {
+              "textColor": "text_Highest_Emphasis",
+              "textVariant": "header_H3_Black"
+            }
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.RestaurantBlTab",
+            "tabs": [
+              {
+                "id": "Order Online",
+                "title": "Order Online"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+              "id": "421533",
+              "name": "Kaati Zone Rolls & Wraps",
+              "city": "Noida 1",
+              "slugs": {
+                "restaurant": "kaati-zone-rolls-and-wraps-noida-expressway-noida-expressway",
+                "city": "noida-1"
+              },
+              "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+              "cloudinaryImageId": "vh8dm0fkntimkrikpoun",
+              "locality": "Shahdra Road",
+              "areaName": "Shahdara",
+              "costForTwo": "15000",
+              "costForTwoMessage": "₹150 for two",
+              "cuisines": ["Fast Food", "Bengali"],
+              "avgRating": 4.2,
+              "feeDetails": {
+                "restaurantId": "421533",
+                "fees": [
+                  {
+                    "name": "TYPE_DISTANCE",
+                    "fee": 11800
+                  },
+                  {
+                    "name": "TYPE_TIME"
+                  }
+                ],
+                "totalFee": 11800,
+                "title": "Delivery Charge",
+                "amount": "11800",
+                "icon": "v1648208530/surgecreatives/info",
+                "message": "<b>Very Far (19.9 kms)</b> | Additional delivery fee will apply"
+              },
+              "parentId": "248306",
+              "avgRatingString": "4.2",
+              "totalRatingsString": "100+ ratings",
+              "sla": {
+                "restaurantId": "421533",
+                "deliveryTime": 70,
+                "minDeliveryTime": 70,
+                "maxDeliveryTime": 75,
+                "lastMileTravel": 19.9,
+                "serviceability": "SERVICEABLE",
+                "stressFactor": 1,
+                "rainMode": "RAIN_MODE_NONE",
+                "longDistance": "LONG_DISTANCE_NOT_LONG_DISTANCE",
+                "zoneId": 2835,
+                "slaString": "70-75 MINS",
+                "lastMileTravelString": "19.8 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2024-04-15 03:00:00",
+                "visibility": true,
+                "opened": true,
+                "restaurantClosedMeta": {}
+              },
+              "aggregatedDiscountInfo": {
+                "header": "50% off",
+                "shortDescriptionList": [
+                  {
+                    "meta": "50% off | Use TRYNEW",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "FLAT125 off | Use FLATDEAL",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "descriptionList": [
+                  {
+                    "meta": "50% off up to ₹100 | Use code TRYNEW",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "FLAT125 off | Use FLATDEAL",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "visible": true
+              },
+              "badges": {},
+              "slugString": "kaati-zone-rolls-and-wraps-noida-expressway-noida-expressway",
+              "multiOutlet": true,
+              "isOpen": true,
+              "labels": [
+                {
+                  "title": "Timings",
+                  "message": "null"
+                },
+                {
+                  "title": "Address",
+                  "message": "Shop Number SH 002, 2nd Floor, Sec-141, Shahdra, Surajpur, Noida, GautamBudh Nagar Tahsil-I, Gautam Buddha Nagar, Uttar Pradesh, 201305"
+                },
+                {
+                  "title": "Cuisines",
+                  "message": "Fast Food,Bengali"
+                }
+              ],
+              "totalRatings": 100,
+              "aggregatedDiscountInfoV2": {
+                "header": "50% off",
+                "shortDescriptionList": [
+                  {
+                    "meta": "50% off | Use TRYNEW",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "FLAT125 off | Use FLATDEAL",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "descriptionList": [
+                  {
+                    "meta": "50% off up to ₹100 | Use code TRYNEW",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "FLAT125 off | Use FLATDEAL",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "couponDetailsCta": "View coupon details"
+              },
+              "type": "F",
+              "nudgeBanners": [
+                {
+                  "minValue": 560,
+                  "maxValue": 800,
+                  "priority": 3,
+                  "couponCode": "PARTY",
+                  "discountInfo": {
+                    "discountType": "Percentage",
+                    "value": 20
+                  },
+                  "lockedMessage": "Add items worth ₹<amount> to unlock flat 20% off | Code PARTY",
+                  "unlockedMessage": "PARTY Coupon Unlocked! Use it to save flat 20% off",
+                  "logoCtx": {}
+                }
+              ],
+              "headerBanner": {
+                "url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/421533"
+              },
+              "expectationNotifiers": [
+                {
+                  "text": "<b>Very Far (19.9 kms)</b> | Additional delivery fee will apply",
+                  "icon": {
+                    "imageId": "equitable_serviceability/es-icons/es-location-icon.png",
+                    "clickable": true
+                  },
+                  "popup": {
+                    "popupType": "HALF_CARD",
+                    "cta": {}
+                  },
+                  "type": "DISTANCE_FEE_FOOD_LM",
+                  "enrichedText": "<b>Very Far (19.9 kms)</b> | Additional delivery fee will apply",
+                  "halfCardPopup": {
+                    "halfCardPopupHeader": {
+                      "message": "Ordering from your far away favourite!",
+                      "imageId": "equitable_serviceability/es-icons/es-half-card-icon.png"
+                    },
+                    "halfCardPopupDescription": [
+                      {
+                        "message": "Far away orders generally take longer and may impact the food temperature",
+                        "imageId": "equitable_serviceability/es-icons/es-half-card-food.png"
+                      }
+                    ]
+                  },
+                  "trailingIcon": {}
+                }
+              ],
+              "ratingSlab": "RATING_SLAB_5",
+              "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+              },
+              "nearestOutletNudge": {
+                "nearestOutletInfo": {
+                  "siblingOutlet": {
+                    "id": "629439",
+                    "city": "0",
+                    "slugs": {},
+                    "areaName": "Laxmi Nagar",
+                    "costForTwo": "0",
+                    "feeDetails": {},
+                    "sla": {
+                      "deliveryTime": 38,
+                      "lastMileTravel": 5,
+                      "slaString": "38 MINS",
+                      "lastMileTravelString": "5.0 km",
+                      "iconType": "ICON_TYPE_EMPTY"
+                    },
+                    "availability": {
+                      "restaurantClosedMeta": {}
+                    },
+                    "aggregatedDiscountInfo": {
+                      "visible": true
+                    },
+                    "badges": {},
+                    "aggregatedDiscountInfoV2": {
+                      "visible": true
+                    },
+                    "availabilityServiceabilityMessage": "Temporarily closed for delivery",
+                    "cartOrderabilityNudgeBanner": {
+                      "parameters": {},
+                      "presentation": {}
+                    }
+                  }
+                },
+                "nearestOutletComms": {
+                  "title": {
+                    "text": "Get your order 32 min faster"
+                  },
+                  "subTitle": {
+                    "text": "Switch to the faster outlet"
+                  }
+                }
+              },
+              "cartOrderabilityNudgeBanner": {
+                "parameters": {},
+                "presentation": {}
+              },
+              "latLong": "28.50746,77.41444",
+              "backgroundImageOverlayInfo": {}
+            },
+            "analytics": {}
+          },
+          "relevance": {
+            "type": "RELEVANCE_TYPE_CHECK_ORDERABILITY_ON_ITEM_ADD",
+            "sectionId": "POP_UP_CROUTON_MENU"
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+            "layout": {
+              "rows": 1,
+              "columns": 5,
+              "horizontalScrollEnabled": true,
+              "itemSpacing": 12,
+              "lineSpacing": 10,
+              "widgetPadding": {},
+              "containerStyle": {
+                "containerPadding": {
+                  "left": 10,
+                  "right": 10,
+                  "bottom": 16
+                }
+              },
+              "scrollBar": {}
+            },
+            "id": "offerCollectionWidget_UX4",
+            "gridElements": {
+              "infoWithStyle": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.OfferInfoWithStyle",
+                "offers": [
+                  {
+                    "info": {
+                      "header": "50% OFF UPTO ₹100",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": ["ff1395ea-bf0a-4d9a-8d61-3dbd64244e97"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE TRYNEW",
+                      "description": "ABOVE ₹159",
+                      "offerType": "offers",
+                      "restId": "421533",
+                      "offerLogo": "offers/generic",
+                      "descriptionTextColor": "#7302060C"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "FLAT ₹125 OFF",
+                      "offerTag": "FLAT DEAL",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": ["a2da59b3-8a5c-42a8-ba80-8a9af053edc3"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE FLATDEAL",
+                      "description": "ABOVE ₹499",
+                      "offerType": "offers",
+                      "restId": "421533",
+                      "offerLogo": "offers/generic",
+                      "descriptionTextColor": "#7302060C"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "FLAT 20% OFF",
+                      "offerTag": "FLAT DEAL",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": ["9d44dfdf-8fab-448d-8b3a-0f9ea19e5950"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE PARTY",
+                      "description": "ABOVE ₹800",
+                      "offerType": "offers",
+                      "restId": "421533",
+                      "offerLogo": "offers/generic",
+                      "descriptionTextColor": "#7302060C"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "20% OFF UPTO ₹125",
+                      "offerTagColor": "#E46D47",
+                      "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/4/4/a0b7cb44-dab7-4128-9fd7-7b59aab0ab6c_AMEX.png",
+                      "offerIds": ["5cf59eab-90a6-46d8-888c-7935d1766252"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE AMEXMATCHDAY",
+                      "description": "ABOVE ₹549",
+                      "offerType": "offers",
+                      "restId": "421533",
+                      "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2024/4/4/a0b7cb44-dab7-4128-9fd7-7b59aab0ab6c_AMEX.png",
+                      "descriptionTextColor": "#7302060C"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "15% OFF UPTO ₹150",
+                      "offerTagColor": "#E46D47",
+                      "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/4/4/ea942094-65ec-4248-9c59-778823fffddb_HSBC.png",
+                      "offerIds": ["600bd7ee-585a-4c79-8dd8-95c461e349b7"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE HSBCFEST",
+                      "description": "ABOVE ₹499",
+                      "offerType": "offers",
+                      "restId": "421533",
+                      "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2024/4/4/ea942094-65ec-4248-9c59-778823fffddb_HSBC.png",
+                      "descriptionTextColor": "#7302060C"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  }
+                ],
+                "habitMilestoneInfo": {
+                  "callout": {}
+                },
+                "loyaltyDiscoverPresentationInfo": {
+                  "logoCtx": {}
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "groupedCard": {
+          "cardGroupMap": {
+            "REGULAR": {
+              "cards": [
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
+                      "badges": {},
+                      "vegOnlyDetails": {
+                        "imageId": "AutoVegOnly_qkjowj",
+                        "title": "Showing only vegetarian options.",
+                        "description": "Tap on the VEG ONLY button to turn off the setting"
+                      },
+                      "topRatedFilter": {},
+                      "kidsCategoryFilter": {
+                        "attributes": {
+                          "displayText": "Kids Favourites",
+                          "tooltip": {
+                            "enabled": true,
+                            "displayText": "Kids Favourites Filter applied. Remove this filter to see the full Menu."
+                          }
+                        }
+                      },
+                      "vegFilter": {
+                        "attributes": {
+                          "displayText": "VEG"
+                        }
+                      },
+                      "nonvegFilter": {
+                        "attributes": {
+                          "displayText": "NONVEG"
+                        }
+                      }
+                    },
+                    "relevance": {
+                      "type": "RELEVANCE_TYPE_ON_MENU_FILTER_TOGGLED",
+                      "sectionId": "MENU_FILTER_TOGGLE"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Recommended",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "131312445",
+                              "name": "Dessert Jars Pack of 6",
+                              "category": "Gift Hamper",
+                              "imageId": "f76a6b2d943e9538f9e679ef8509946f",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 69900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "131312446",
+                              "name": "Dessert Jars Pack of 4",
+                              "category": "Gift Hamper",
+                              "imageId": "ec9a24f58e97f3e98bea408da7419a29",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 44900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "76223773",
+                              "name": "French Fries",
+                              "category": "Quick Bite",
+                              "description": "Serves 1 | Be it a side dish to a meal or just a snack, these crisp fried French Fries are so satisfying! (440 Calories)",
+                              "imageId": "p7g01vrjsxqgn1tm3fp6",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 12900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "2.6",
+                                  "ratingCount": "13 ratings",
+                                  "ratingCountV2": "13"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "95436247",
+                              "name": "Lemon Pepper French Fries",
+                              "category": "Quick Bite",
+                              "description": "Serves 1 | A unique seasoning of lemony tang with freshly ground pepper dusted on top of crispy fried french fries. Worthy of the finger lick! (440 Calories)",
+                              "imageId": "g2hmn4w8c4wyjtmfwtnm",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 13900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "95436248",
+                              "name": "Chilli Garlic French Fries",
+                              "category": "Quick Bite",
+                              "description": "Serves 1 | French fries sprinkled generously with our in-house punchy seasoning of Chilli Garlic. Warning - these get over in a jiffy! (440 Calories)",
+                              "imageId": "uinimjjge8xp2m9jw0cp",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 13900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "76224312",
+                              "name": "Blackforest Jar Cake Medium",
+                              "category": "Desserts & Jar Cakes",
+                              "description": "Serves 1 | A classic chocolate cake, freshly whipped cream topped with cherries and chocolate shavings giving the jar its rightful glory. The Blackforest Jar cake adds cheer to any day! (330 Calories)",
+                              "imageId": "zwsyg0wlakiv0eopjowh",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 13800,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "76224319",
+                              "name": "Blueberry Jar Cake Medium",
+                              "category": "Desserts & Jar Cakes",
+                              "description": "Serves 1 | A fruity combination of light cake & whipped cream finished off with a delicious Blueberry topping! This super moist jar cake bursts with the distinct Blueberry flavour! (310 Calories)",
+                              "imageId": "j4pzckib3pl10oidpch5",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 14500,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "76224320",
+                              "name": "Chocolate Chip Jar Cake Medium",
+                              "category": "Desserts & Jar Cakes",
+                              "description": "Serves 1 | Who can resist the combination of a moist chocolate cake & crunchy choco chips? Putting these two irresistible delights together in a jar makes a chocolate-lovers dessert complete! (520 Calories)",
+                              "imageId": "lv7sgp5l02obdm8hueso",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 14800,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "76224321",
+                              "name": "Chocolate Truffle Jar Cake Medium",
+                              "category": "Desserts & Jar Cakes",
+                              "description": "Serves 1 | Layers of delicious chocolate cake and chocolate ganache packed in a jar. (440 Calories)",
+                              "imageId": "w6ky9uv2hl4xm9adb2sz",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 14800,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "76224310",
+                              "name": "Pineapple Jar Cake Medium",
+                              "category": "Desserts & Jar Cakes",
+                              "description": "Serves 1 | A melt-in-the-mouth cake and slightly tart pineapple make this jar a sure winner. Vanilla sponge, topped with whipped cream and finished with pineapple garnish, this jar will have you asking for more! (330 Calories)",
+                              "imageId": "zworzpo5hmyclamswy5a",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 13800,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "76224314",
+                              "name": "Red Velvet Jar Cake Medium",
+                              "category": "Desserts & Jar Cakes",
+                              "description": "Serves 1 | This jar has Red Velvet cake layered with silken whipped cream and a topping of Red Velvet crumbs. A perfect dessert to gift to friends or eat by yourself. (140 Calories)",
+                              "imageId": "z4fozzqpwqjnwqqvipfu",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 14500,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "type": "CATEGORY_TYPE_RECOMMENDED"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Gift Hamper",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "131312445",
+                              "name": "Dessert Jars Pack of 6",
+                              "category": "Gift Hamper",
+                              "imageId": "f76a6b2d943e9538f9e679ef8509946f",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 69900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "131312446",
+                              "name": "Dessert Jars Pack of 4",
+                              "category": "Gift Hamper",
+                              "imageId": "ec9a24f58e97f3e98bea408da7419a29",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 44900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Quick Bite",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "76223773",
+                              "name": "French Fries",
+                              "category": "Quick Bite",
+                              "description": "Serves 1 | Be it a side dish to a meal or just a snack, these crisp fried French Fries are so satisfying! (440 Calories)",
+                              "imageId": "p7g01vrjsxqgn1tm3fp6",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 12900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "2.6",
+                                  "ratingCount": "13 ratings",
+                                  "ratingCountV2": "13"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "95436247",
+                              "name": "Lemon Pepper French Fries",
+                              "category": "Quick Bite",
+                              "description": "Serves 1 | A unique seasoning of lemony tang with freshly ground pepper dusted on top of crispy fried french fries. Worthy of the finger lick! (440 Calories)",
+                              "imageId": "g2hmn4w8c4wyjtmfwtnm",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 13900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "95436248",
+                              "name": "Chilli Garlic French Fries",
+                              "category": "Quick Bite",
+                              "description": "Serves 1 | French fries sprinkled generously with our in-house punchy seasoning of Chilli Garlic. Warning - these get over in a jiffy! (440 Calories)",
+                              "imageId": "uinimjjge8xp2m9jw0cp",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 13900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Desserts & Jar Cakes",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "76224312",
+                              "name": "Blackforest Jar Cake Medium",
+                              "category": "Desserts & Jar Cakes",
+                              "description": "Serves 1 | A classic chocolate cake, freshly whipped cream topped with cherries and chocolate shavings giving the jar its rightful glory. The Blackforest Jar cake adds cheer to any day! (330 Calories)",
+                              "imageId": "zwsyg0wlakiv0eopjowh",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 13800,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "76224319",
+                              "name": "Blueberry Jar Cake Medium",
+                              "category": "Desserts & Jar Cakes",
+                              "description": "Serves 1 | A fruity combination of light cake & whipped cream finished off with a delicious Blueberry topping! This super moist jar cake bursts with the distinct Blueberry flavour! (310 Calories)",
+                              "imageId": "j4pzckib3pl10oidpch5",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 14500,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "76224320",
+                              "name": "Chocolate Chip Jar Cake Medium",
+                              "category": "Desserts & Jar Cakes",
+                              "description": "Serves 1 | Who can resist the combination of a moist chocolate cake & crunchy choco chips? Putting these two irresistible delights together in a jar makes a chocolate-lovers dessert complete! (520 Calories)",
+                              "imageId": "lv7sgp5l02obdm8hueso",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 14800,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "76224322",
+                              "name": "Chocolate Oreo Jar Cake Medium",
+                              "category": "Desserts & Jar Cakes",
+                              "description": "Serves 1 | Happiness in a jar with the sound of the oreo crunch! The delicious combination of a Chocolate Cake with Oreo cookies is irresistible. A must try for Oreo lovers and others too! (400 Calories)",
+                              "imageId": "cqjvyipxtncifutzwd58",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 15900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "76224321",
+                              "name": "Chocolate Truffle Jar Cake Medium",
+                              "category": "Desserts & Jar Cakes",
+                              "description": "Serves 1 | Layers of delicious chocolate cake and chocolate ganache packed in a jar. (440 Calories)",
+                              "imageId": "w6ky9uv2hl4xm9adb2sz",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 14800,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "76223527",
+                              "name": "Gooey Brownie",
+                              "category": "Desserts & Jar Cakes",
+                              "description": "Serves 1 | Gooey yet crisp chocolate brownie is a much loved dessert. The perfectly balanced flavours are ideal  for those looking to grab a bite sized dessert after a great meal. (530 Calories)",
+                              "imageId": "ttapy8rcpkts4vfurjbd",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 9900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "76224310",
+                              "name": "Pineapple Jar Cake Medium",
+                              "category": "Desserts & Jar Cakes",
+                              "description": "Serves 1 | A melt-in-the-mouth cake and slightly tart pineapple make this jar a sure winner. Vanilla sponge, topped with whipped cream and finished with pineapple garnish, this jar will have you asking for more! (330 Calories)",
+                              "imageId": "zworzpo5hmyclamswy5a",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 13800,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "76224314",
+                              "name": "Red Velvet Jar Cake Medium",
+                              "category": "Desserts & Jar Cakes",
+                              "description": "Serves 1 | This jar has Red Velvet cake layered with silken whipped cream and a topping of Red Velvet crumbs. A perfect dessert to gift to friends or eat by yourself. (140 Calories)",
+                              "imageId": "z4fozzqpwqjnwqqvipfu",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 14500,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "76224158",
+                              "name": "Walnut Brownie",
+                              "category": "Desserts & Jar Cakes",
+                              "description": "Serves 1 | A dense & moist pastry that combines a rich, chocolatey flavor with the nutty crunch of walnut and baked until it has a crispy top and a fudgy center. It is an indulgent treat for chocolate lovers.",
+                              "imageId": "cbc6f7cbc9887de2e8c270c48b4d1996",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 10900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Beverages & Milkshakes",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "94215937",
+                              "name": "Pepsi",
+                              "category": "Beverages & Milkshakes",
+                              "description": "Serves 1 | (220 Calories each)",
+                              "imageId": "9eca3f0b189f0ebabdf0aa18dc7dd67a",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 6000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "76224143",
+                              "name": "Butterscotch Milkshake",
+                              "category": "Beverages & Milkshakes",
+                              "description": "Serves 1 | For all those Butterscotch lovers, what else can quench your cravings better than a butterscotch?milkshake. (360 Calories)",
+                              "imageId": "tvgwibqonktwokeb0zvm",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 14800,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "76224149",
+                              "name": "Chocolate Milkshake",
+                              "category": "Beverages & Milkshakes",
+                              "description": "Serves 1 | This baby doesn't need to be described. You all know you crave this everyday! (330 Calories)",
+                              "imageId": "ynbndrj5khwlox0hhpaw",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 14800,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "76224151",
+                              "name": "Chocolate Truffle Thick Shake",
+                              "category": "Beverages & Milkshakes",
+                              "description": "Serves 1 | A dessert so creamy & delicious. The perfect blend of Chocolate Truffle pastry with ice cream! Dessert perfection in a bottle! (620 Calories)",
+                              "imageId": "yy6lcr6tbnhzsgkj5lse",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 16900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "76224154",
+                              "name": "Death By Chocolate Thick Shake",
+                              "category": "Beverages & Milkshakes",
+                              "description": "Serves 1 | A must try for those who love an overdose of chocolate. Loaded with the richness of chocolate & goodness of milk, this bottle screams with flavour! So tempting that you will have hard time resisting. (620 Calories)",
+                              "imageId": "yy6lcr6tbnhzsgkj5lse",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 16900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.1",
+                                  "ratingCount": "3 ratings",
+                                  "ratingCountV2": "3"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "76224148",
+                              "name": "Mango Milkshake",
+                              "category": "Beverages & Milkshakes",
+                              "description": "Serves 1 | We present you the king of all fruits, the refreshing mango. Now imagine how delicious it will be when you add a full scoop of fresh ice cream and make a drink out of it. (110 Calories)",
+                              "imageId": "9f7238abbd686d1b8b6d4ed6bf47ecf4",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 14800,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "76224152",
+                              "name": "Oreo Brownie Thick Shake",
+                              "category": "Beverages & Milkshakes",
+                              "description": "Serves 1 | The perfect snack to drink! This?milkshake?has the goodness of Oreo cookies, decadent brownie & smooth vanilla ice cream! Drink your way to chocolatey happiness! (910 Calories)",
+                              "imageId": "rdvgduepdfufg2gtz8uc",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 16900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "76224155",
+                              "name": "Red Velvet Thick Shake",
+                              "category": "Beverages & Milkshakes",
+                              "description": "Serves 1 | An indulgent milkshake that looks just as pretty as it tastes! A blend of Red Velvet pastry with Vanilla ice cream makes this such an irresistible milk shake perfect to share with your loved one! (430 Calories)",
+                              "imageId": "na7uizkzyxqx6fa9yzp2",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 17900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "76224150",
+                              "name": "Rose Milkshake",
+                              "category": "Beverages & Milkshakes",
+                              "description": "Serves 1 | We bring you the vintage rose?milkshake?which will bring back all the beautiful childhood memories you made while drinking it. (360 Calories)",
+                              "imageId": "adxpdj3vyjeevg3wbfe3",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 14800,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantLicenseInfo",
+                      "type": "FSSAI",
+                      "imageId": "fssai_final_edss9i",
+                      "text": ["License No. 12721055001420"]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantAddress",
+                      "name": "Kaati Zone Rolls & Wraps",
+                      "area": "Shahdara",
+                      "completeAddress": "Shop Number SH 002, 2nd Floor, Sec-141, Shahdra, Surajpur, Noida, GautamBudh Nagar Tahsil-I, Gautam Buddha Nagar, Uttar Pradesh, 201305"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "firstOffsetRequest": true,
+    "isQCLink": false
+  },
+  "tid": "bf4a556f-8433-4fab-8f3c-ec4d831fe49b",
+  "sid": "d9wcb7eb-32b8-4990-8fde-5a12be4f9c57",
+  "deviceId": "8ce75733-b16a-08b4-a050-18c0e7216dd8",
+  "csrfToken": "Gh7fYs6YJJpQ-Gunq-pHnehls26dnKSGsln-PfAU"
+}

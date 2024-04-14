@@ -1,0 +1,1529 @@
+{
+  "statusCode": 0,
+  "data": {
+    "statusMessage": "done successfully",
+    "cards": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.TextBoxV2",
+            "text": "Natural Ice Cream",
+            "headerStyling": {
+              "textColor": "text_Highest_Emphasis",
+              "textVariant": "header_H3_Black"
+            }
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.RestaurantBlTab",
+            "tabs": [
+              {
+                "id": "Order Online",
+                "title": "Order Online"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+              "id": "314442",
+              "name": "Natural Ice Cream",
+              "city": "Noida 1",
+              "slugs": {
+                "restaurant": "natural-ice-cream-sector-83-noida-expressway",
+                "city": "noida-1"
+              },
+              "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+              "cloudinaryImageId": "ihfhw9umlilffphilf6d",
+              "locality": "B Block",
+              "areaName": "Sector 83",
+              "costForTwo": "15000",
+              "costForTwoMessage": "₹150 for two",
+              "cuisines": ["Ice Cream", "Desserts"],
+              "avgRating": 4.7,
+              "veg": true,
+              "feeDetails": {
+                "restaurantId": "314442",
+                "fees": [
+                  {
+                    "name": "TYPE_DISTANCE",
+                    "fee": 19900
+                  },
+                  {
+                    "name": "TYPE_TIME"
+                  }
+                ],
+                "totalFee": 19900,
+                "title": "Delivery Charge",
+                "amount": "19900",
+                "icon": "v1648208530/surgecreatives/info",
+                "message": "<b>Very Far (16.8 kms)</b> | Additional delivery fee will apply"
+              },
+              "parentId": "2093",
+              "avgRatingString": "4.7",
+              "totalRatingsString": "500+ ratings",
+              "sla": {
+                "restaurantId": "314442",
+                "deliveryTime": 56,
+                "minDeliveryTime": 55,
+                "maxDeliveryTime": 60,
+                "lastMileTravel": 16.8,
+                "serviceability": "SERVICEABLE",
+                "stressFactor": 1,
+                "rainMode": "RAIN_MODE_NONE",
+                "longDistance": "LONG_DISTANCE_NOT_LONG_DISTANCE",
+                "zoneId": 2835,
+                "slaString": "55-60 MINS",
+                "lastMileTravelString": "16.7 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2024-04-14 23:59:00",
+                "visibility": true,
+                "opened": true,
+                "restaurantClosedMeta": {}
+              },
+              "aggregatedDiscountInfo": {
+                "shortDescriptionList": [
+                  {
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "descriptionList": [
+                  {
+                    "meta": "20% off upto ₹125 | Use AMEXMATCHDAY Above ₹549",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "15% off upto ₹150 | Above ₹499",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "visible": true
+              },
+              "badges": {},
+              "slugString": "natural-ice-cream-sector-83-noida-expressway",
+              "multiOutlet": true,
+              "isOpen": true,
+              "labels": [
+                {
+                  "title": "Timings",
+                  "message": "null"
+                },
+                {
+                  "title": "Address",
+                  "message": "Ground  Floor, Property No. B-57, Sec. 83, Noida, Disst Gautam Budh Nagar Uttar Pradesh - 201305"
+                },
+                {
+                  "title": "Cuisines",
+                  "message": "Ice Cream,Desserts"
+                }
+              ],
+              "totalRatings": 500,
+              "aggregatedDiscountInfoV2": {
+                "shortDescriptionList": [
+                  {
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "descriptionList": [
+                  {
+                    "meta": "20% off upto ₹125 | Use AMEXMATCHDAY Above ₹549",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "15% off upto ₹150 | Above ₹499",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "couponDetailsCta": "View coupon details"
+              },
+              "type": "F",
+              "headerBanner": {
+                "url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/314442"
+              },
+              "expectationNotifiers": [
+                {
+                  "text": "<b>Very Far (16.8 kms)</b> | Additional delivery fee will apply",
+                  "icon": {
+                    "imageId": "equitable_serviceability/es-icons/es-location-icon.png",
+                    "clickable": true
+                  },
+                  "popup": {
+                    "popupType": "HALF_CARD",
+                    "cta": {}
+                  },
+                  "type": "DISTANCE_FEE_FOOD_LM",
+                  "enrichedText": "<b>Very Far (16.8 kms)</b> | Additional delivery fee will apply",
+                  "halfCardPopup": {
+                    "halfCardPopupHeader": {
+                      "message": "Ordering from your far away favourite!",
+                      "imageId": "equitable_serviceability/es-icons/es-half-card-icon.png"
+                    },
+                    "halfCardPopupDescription": [
+                      {
+                        "message": "Far away orders generally take longer and may impact the food temperature",
+                        "imageId": "equitable_serviceability/es-icons/es-half-card-food.png"
+                      }
+                    ]
+                  },
+                  "trailingIcon": {}
+                }
+              ],
+              "ratingSlab": "RATING_SLAB_5",
+              "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+              },
+              "hasBestsellerItems": true,
+              "nearestOutletNudge": {
+                "nearestOutletInfo": {
+                  "siblingOutlet": {
+                    "id": "750690",
+                    "city": "0",
+                    "slugs": {},
+                    "areaName": "PREET VIHAR",
+                    "costForTwo": "0",
+                    "feeDetails": {},
+                    "sla": {
+                      "deliveryTime": 31,
+                      "lastMileTravel": 5.6,
+                      "slaString": "31 MINS",
+                      "lastMileTravelString": "5.5 km",
+                      "iconType": "ICON_TYPE_EMPTY"
+                    },
+                    "availability": {
+                      "restaurantClosedMeta": {}
+                    },
+                    "aggregatedDiscountInfo": {
+                      "visible": true
+                    },
+                    "badges": {},
+                    "aggregatedDiscountInfoV2": {
+                      "visible": true
+                    },
+                    "availabilityServiceabilityMessage": "Temporarily closed for delivery",
+                    "cartOrderabilityNudgeBanner": {
+                      "parameters": {},
+                      "presentation": {}
+                    }
+                  }
+                },
+                "nearestOutletComms": {
+                  "title": {
+                    "text": "Get your order 25 min faster"
+                  },
+                  "subTitle": {
+                    "text": "Switch to the faster outlet"
+                  }
+                }
+              },
+              "cartOrderabilityNudgeBanner": {
+                "parameters": {},
+                "presentation": {}
+              },
+              "latLong": "28.527581,77.401674",
+              "backgroundImageOverlayInfo": {}
+            },
+            "analytics": {}
+          },
+          "relevance": {
+            "type": "RELEVANCE_TYPE_CHECK_ORDERABILITY_ON_ITEM_ADD",
+            "sectionId": "POP_UP_CROUTON_MENU"
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+            "layout": {
+              "rows": 1,
+              "columns": 4,
+              "horizontalScrollEnabled": true,
+              "itemSpacing": 12,
+              "lineSpacing": 10,
+              "widgetPadding": {},
+              "containerStyle": {
+                "containerPadding": {
+                  "left": 10,
+                  "right": 10,
+                  "bottom": 16
+                }
+              },
+              "scrollBar": {}
+            },
+            "id": "offerCollectionWidget_UX4",
+            "gridElements": {
+              "infoWithStyle": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.OfferInfoWithStyle",
+                "offers": [
+                  {
+                    "info": {
+                      "header": "20% OFF UPTO ₹125",
+                      "offerTagColor": "#E46D47",
+                      "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/4/4/a0b7cb44-dab7-4128-9fd7-7b59aab0ab6c_AMEX.png",
+                      "offerIds": ["5cf59eab-90a6-46d8-888c-7935d1766252"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE AMEXMATCHDAY",
+                      "description": "ABOVE ₹549",
+                      "offerType": "offers",
+                      "restId": "314442",
+                      "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2024/4/4/a0b7cb44-dab7-4128-9fd7-7b59aab0ab6c_AMEX.png",
+                      "descriptionTextColor": "#7302060C"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "15% OFF UPTO ₹150",
+                      "offerTagColor": "#E46D47",
+                      "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/4/4/ea942094-65ec-4248-9c59-778823fffddb_HSBC.png",
+                      "offerIds": ["600bd7ee-585a-4c79-8dd8-95c461e349b7"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE HSBCFEST",
+                      "description": "ABOVE ₹499",
+                      "offerType": "offers",
+                      "restId": "314442",
+                      "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2024/4/4/ea942094-65ec-4248-9c59-778823fffddb_HSBC.png",
+                      "descriptionTextColor": "#7302060C"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "15% OFF UPTO ₹300",
+                      "offerTagColor": "#E46D47",
+                      "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/4/4/7806e2f2-5e05-49de-a59f-8b27212b816f_Citi.png",
+                      "offerIds": ["ff78f7f5-13ee-492f-8a02-e1148473d717"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE CITIFOODIE",
+                      "description": "ABOVE ₹1200",
+                      "offerType": "offers",
+                      "restId": "314442",
+                      "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2024/4/4/7806e2f2-5e05-49de-a59f-8b27212b816f_Citi.png",
+                      "descriptionTextColor": "#7302060C"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "FLAT ₹150 OFF",
+                      "offerTagColor": "#E46D47",
+                      "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/4/4/a042701d-21c8-449a-bb8f-c39a1c79da6e_AMEX.png",
+                      "offerIds": ["125fa96b-1dab-4d02-a340-2eeb7a2de8a4"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE AMEX150",
+                      "description": "ABOVE ₹600",
+                      "offerType": "offers",
+                      "restId": "314442",
+                      "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2024/4/4/a042701d-21c8-449a-bb8f-c39a1c79da6e_AMEX.png",
+                      "descriptionTextColor": "#7302060C"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  }
+                ],
+                "habitMilestoneInfo": {
+                  "callout": {}
+                },
+                "loyaltyDiscoverPresentationInfo": {
+                  "logoCtx": {}
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "groupedCard": {
+          "cardGroupMap": {
+            "REGULAR": {
+              "cards": [
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
+                      "isPureVeg": true,
+                      "badges": {},
+                      "vegOnlyDetails": {
+                        "imageId": "AutoVegOnly_qkjowj",
+                        "title": "Showing only vegetarian options.",
+                        "description": "Tap on the VEG ONLY button to turn off the setting"
+                      },
+                      "topRatedFilter": {},
+                      "kidsCategoryFilter": {
+                        "attributes": {
+                          "displayText": "Kids Favourites",
+                          "tooltip": {
+                            "enabled": true,
+                            "displayText": "Kids Favourites Filter applied. Remove this filter to see the full Menu."
+                          }
+                        }
+                      },
+                      "vegFilter": {
+                        "attributes": {
+                          "displayText": "VEG"
+                        }
+                      },
+                      "nonvegFilter": {
+                        "attributes": {
+                          "displayText": "NONVEG"
+                        }
+                      }
+                    },
+                    "relevance": {
+                      "type": "RELEVANCE_TYPE_ON_MENU_FILTER_TOGGLED",
+                      "sectionId": "MENU_FILTER_TOGGLE"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Recommended",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "64026521",
+                              "name": "Tender Coconut Ice Cream (500 grams)",
+                              "category": "Family Pack",
+                              "description": "Tender Coconut Family Pack",
+                              "imageId": "8f18ea762d56067c033b2db9ee2a9137",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 38687,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.5",
+                                  "ratingCount": "148 ratings",
+                                  "ratingCountV2": "148"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "60161284",
+                              "name": "Mango Ice Cream (500 grams)",
+                              "category": "Family Pack",
+                              "description": "Mango Family Pack",
+                              "imageId": "9aac5586b7cc8e9b41236380d31a0e30",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 38687,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.2",
+                                  "ratingCount": "98 ratings",
+                                  "ratingCountV2": "98"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "86052233",
+                              "name": "Kaju Kismis Ice Cream (500 grams)",
+                              "category": "Family Pack",
+                              "description": "Kaju Kismis Family Pack",
+                              "imageId": "8cf385667d6c020447d7a6a29495b97c",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 38687,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.9",
+                                  "ratingCount": "10 ratings",
+                                  "ratingCountV2": "10"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "86052242",
+                              "name": "Anjeer Ice Cream (500 grams)",
+                              "category": "Family Pack",
+                              "description": "Anjeer Family Pack",
+                              "imageId": "1512cd35f62c7372f12ee4f0a38248c3",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 38687,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.3",
+                                  "ratingCount": "20 ratings",
+                                  "ratingCountV2": "20"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "86052240",
+                              "name": "Malai Khurma Ice Cream (500 grams)",
+                              "category": "Family Pack",
+                              "description": "Malai Khurma Family Pack",
+                              "imageId": "3ed308f51e886115a7b4ed3e8a74b35f",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 38687,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.4",
+                                  "ratingCount": "3 ratings",
+                                  "ratingCountV2": "3"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "84744359",
+                              "name": "Chocobite Ice Cream (500 grams)",
+                              "category": "Family Pack",
+                              "description": "Chocobite Family Pack",
+                              "imageId": "52c797d5c23292deba8c4944841afee6",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 38687,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.5",
+                                  "ratingCount": "14 ratings",
+                                  "ratingCountV2": "14"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "85460450",
+                              "name": "Coffee Walnut Ice Cream (500 grams)",
+                              "category": "Family Pack",
+                              "description": "Coffee walnut Family Pack",
+                              "imageId": "724bbe069768557315f31b7b48d28ec1",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 38687,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.5",
+                                  "ratingCount": "19 ratings",
+                                  "ratingCountV2": "19"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "85460449",
+                              "name": "Roasted Almond Ice Cream (500 grams)",
+                              "category": "Family Pack",
+                              "description": "Roasted Almond Family Pack",
+                              "imageId": "f2061b642b0cf9e3e079041cf69f3449",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 38687,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.8",
+                                  "ratingCount": "19 ratings",
+                                  "ratingCountV2": "19"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "63152351",
+                              "name": "Tender Coconut Ice Cream (300 grams)",
+                              "category": "Mini Pack",
+                              "description": "Tender Coconut (300 grams)",
+                              "imageId": "8f18ea762d56067c033b2db9ee2a9137",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 28898,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.4",
+                                  "ratingCount": "76 ratings",
+                                  "ratingCountV2": "76"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "84435656",
+                              "name": "Mango Ice Cream (300 grams)",
+                              "category": "Mini Pack",
+                              "description": "Mango (300 grams)",
+                              "imageId": "9aac5586b7cc8e9b41236380d31a0e30",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 28898,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.2",
+                                  "ratingCount": "39 ratings",
+                                  "ratingCountV2": "39"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "84744361",
+                              "name": "Chocobite Ice Cream (300 grams)",
+                              "category": "Mini Pack",
+                              "description": "Chocobite (300 grams)",
+                              "imageId": "52c797d5c23292deba8c4944841afee6",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 28898,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.9",
+                                  "ratingCount": "19 ratings",
+                                  "ratingCountV2": "19"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "85153304",
+                              "name": "Coffee Walnut Ice Cream (300 grams)",
+                              "category": "Mini Pack",
+                              "description": "Coffee walnut (300 grams)",
+                              "imageId": "724bbe069768557315f31b7b48d28ec1",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 28898,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.7",
+                                  "ratingCount": "25 ratings",
+                                  "ratingCountV2": "25"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "85460452",
+                              "name": "Roasted Almond Ice Cream (300 grams)",
+                              "category": "Mini Pack",
+                              "description": "Roasted Almond (300 grams)",
+                              "imageId": "f2061b642b0cf9e3e079041cf69f3449",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 28898,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.5",
+                                  "ratingCount": "17 ratings",
+                                  "ratingCountV2": "17"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "85460453",
+                              "name": "Mini Three Worlds Combo (Tender Coconut 300gms+Chocobite 300gms+Roasted Almond 300 gms)",
+                              "category": "Mini Combos",
+                              "description": "Most preferred trio in 300grams mini packs.1mini pack tender coconut ice cream, 1mini pack chocobite ice cream and 1mini pack roasted almond ice cream",
+                              "imageId": "ff826932f5d37459fe3b30d01ff0d025",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 77373,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "2.4",
+                                  "ratingCount": "9 ratings",
+                                  "ratingCountV2": "9"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "type": "CATEGORY_TYPE_RECOMMENDED"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Family Pack",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "64026521",
+                              "name": "Tender Coconut Ice Cream (500 grams)",
+                              "category": "Family Pack",
+                              "description": "Tender Coconut Family Pack",
+                              "imageId": "8f18ea762d56067c033b2db9ee2a9137",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 38687,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.5",
+                                  "ratingCount": "148 ratings",
+                                  "ratingCountV2": "148"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "60161284",
+                              "name": "Mango Ice Cream (500 grams)",
+                              "category": "Family Pack",
+                              "description": "Mango Family Pack",
+                              "imageId": "9aac5586b7cc8e9b41236380d31a0e30",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 38687,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.2",
+                                  "ratingCount": "98 ratings",
+                                  "ratingCountV2": "98"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "86052233",
+                              "name": "Kaju Kismis Ice Cream (500 grams)",
+                              "category": "Family Pack",
+                              "description": "Kaju Kismis Family Pack",
+                              "imageId": "8cf385667d6c020447d7a6a29495b97c",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 38687,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.9",
+                                  "ratingCount": "10 ratings",
+                                  "ratingCountV2": "10"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "86052242",
+                              "name": "Anjeer Ice Cream (500 grams)",
+                              "category": "Family Pack",
+                              "description": "Anjeer Family Pack",
+                              "imageId": "1512cd35f62c7372f12ee4f0a38248c3",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 38687,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.3",
+                                  "ratingCount": "20 ratings",
+                                  "ratingCountV2": "20"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "86052240",
+                              "name": "Malai Khurma Ice Cream (500 grams)",
+                              "category": "Family Pack",
+                              "description": "Malai Khurma Family Pack",
+                              "imageId": "3ed308f51e886115a7b4ed3e8a74b35f",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 38687,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.4",
+                                  "ratingCount": "3 ratings",
+                                  "ratingCountV2": "3"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "84744359",
+                              "name": "Chocobite Ice Cream (500 grams)",
+                              "category": "Family Pack",
+                              "description": "Chocobite Family Pack",
+                              "imageId": "52c797d5c23292deba8c4944841afee6",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 38687,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.5",
+                                  "ratingCount": "14 ratings",
+                                  "ratingCountV2": "14"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "85460450",
+                              "name": "Coffee Walnut Ice Cream (500 grams)",
+                              "category": "Family Pack",
+                              "description": "Coffee walnut Family Pack",
+                              "imageId": "724bbe069768557315f31b7b48d28ec1",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 38687,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.5",
+                                  "ratingCount": "19 ratings",
+                                  "ratingCountV2": "19"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "85460449",
+                              "name": "Roasted Almond Ice Cream (500 grams)",
+                              "category": "Family Pack",
+                              "description": "Roasted Almond Family Pack",
+                              "imageId": "f2061b642b0cf9e3e079041cf69f3449",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 38687,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.8",
+                                  "ratingCount": "19 ratings",
+                                  "ratingCountV2": "19"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Mini Pack",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "63152351",
+                              "name": "Tender Coconut Ice Cream (300 grams)",
+                              "category": "Mini Pack",
+                              "description": "Tender Coconut (300 grams)",
+                              "imageId": "8f18ea762d56067c033b2db9ee2a9137",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 28898,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.4",
+                                  "ratingCount": "76 ratings",
+                                  "ratingCountV2": "76"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "84435656",
+                              "name": "Mango Ice Cream (300 grams)",
+                              "category": "Mini Pack",
+                              "description": "Mango (300 grams)",
+                              "imageId": "9aac5586b7cc8e9b41236380d31a0e30",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 28898,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.2",
+                                  "ratingCount": "39 ratings",
+                                  "ratingCountV2": "39"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "84744361",
+                              "name": "Chocobite Ice Cream (300 grams)",
+                              "category": "Mini Pack",
+                              "description": "Chocobite (300 grams)",
+                              "imageId": "52c797d5c23292deba8c4944841afee6",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 28898,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.9",
+                                  "ratingCount": "19 ratings",
+                                  "ratingCountV2": "19"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "85153304",
+                              "name": "Coffee Walnut Ice Cream (300 grams)",
+                              "category": "Mini Pack",
+                              "description": "Coffee walnut (300 grams)",
+                              "imageId": "724bbe069768557315f31b7b48d28ec1",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 28898,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.7",
+                                  "ratingCount": "25 ratings",
+                                  "ratingCountV2": "25"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "85460452",
+                              "name": "Roasted Almond Ice Cream (300 grams)",
+                              "category": "Mini Pack",
+                              "description": "Roasted Almond (300 grams)",
+                              "imageId": "f2061b642b0cf9e3e079041cf69f3449",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 28898,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.5",
+                                  "ratingCount": "17 ratings",
+                                  "ratingCountV2": "17"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Mini Combos",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "85460453",
+                              "name": "Mini Three Worlds Combo (Tender Coconut 300gms+Chocobite 300gms+Roasted Almond 300 gms)",
+                              "category": "Mini Combos",
+                              "description": "Most preferred trio in 300grams mini packs.1mini pack tender coconut ice cream, 1mini pack chocobite ice cream and 1mini pack roasted almond ice cream",
+                              "imageId": "ff826932f5d37459fe3b30d01ff0d025",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 77373,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "2.4",
+                                  "ratingCount": "9 ratings",
+                                  "ratingCountV2": "9"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantLicenseInfo",
+                      "type": "FSSAI",
+                      "imageId": "fssai_final_edss9i",
+                      "text": ["License No. 13316010000374"]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantAddress",
+                      "name": "Natural Ice Cream",
+                      "area": "Sector 83",
+                      "completeAddress": "Ground  Floor, Property No. B-57, Sec. 83, Noida, Disst Gautam Budh Nagar Uttar Pradesh - 201305"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "firstOffsetRequest": true,
+    "isQCLink": false
+  },
+  "tid": "f5ab5653-b2ee-4d15-ae1a-bec16f0e9314",
+  "sid": "d9w171d5-e8ca-4e7e-937d-96769631f355",
+  "deviceId": "4292ceb8-03a7-f564-31b2-b594601b4c8c",
+  "csrfToken": "zv8haCbI13Ss-eYCuaWPR9zAq5XgZ4hLp0E86fGQ"
+}

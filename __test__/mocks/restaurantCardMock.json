@@ -1,0 +1,74 @@
+{
+  "info": {
+    "id": "400158",
+    "name": "NIC Ice Creams",
+    "cloudinaryImageId": "85825a6d74b1059a63a9b688de9f67ce",
+    "locality": "Ghari Shahdara",
+    "areaName": "Sector 135",
+    "costForTwo": "₹120 for two",
+    "cuisines": ["Ice Cream", "Desserts"],
+    "avgRating": 4.5,
+    "veg": true,
+    "parentId": "6249",
+    "avgRatingString": "4.5",
+    "totalRatingsString": "1K+",
+    "sla": {
+      "deliveryTime": 25,
+      "lastMileTravel": 4.9,
+      "serviceability": "SERVICEABLE",
+      "slaString": "20-25 mins",
+      "lastMileTravelString": "4.9 km",
+      "iconType": "ICON_TYPE_EMPTY"
+    },
+    "availability": {
+      "nextCloseTime": "2024-03-22 00:00:00",
+      "opened": true
+    },
+    "badges": {
+      "imageBadges": [
+        {
+          "imageId": "Rxawards/_CATEGORY-Ice-creams.png",
+          "description": "Delivery!"
+        }
+      ]
+    },
+    "isOpen": true,
+    "type": "F",
+    "badgesV2": {
+      "entityBadges": {
+        "imageBased": {
+          "badgeObject": [
+            {
+              "attributes": {
+                "description": "Delivery!",
+                "imageId": "Rxawards/_CATEGORY-Ice-creams.png"
+              }
+            }
+          ]
+        },
+        "textBased": {},
+        "textExtendedBadges": {}
+      }
+    },
+    "aggregatedDiscountInfoV3": {
+      "header": "ITEMS",
+      "subHeader": "AT ₹169"
+    },
+    "differentiatedUi": {
+      "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+      "differentiatedUiMediaDetails": {
+        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+        "lottie": {},
+        "video": {}
+      }
+    },
+    "reviewsSummary": {},
+    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+    "restaurantOfferPresentationInfo": {}
+  },
+  "analytics": {},
+  "cta": {
+    "link": "https://www.swiggy.com/restaurants/nic-ice-creams-ghari-shahdara-sector-135-noida-1-400158",
+    "type": "WEBLINK"
+  }
+}
