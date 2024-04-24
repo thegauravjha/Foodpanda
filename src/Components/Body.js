@@ -9,7 +9,7 @@ import useOnlineStatus from "../utils/useOnlineStatus";
 const Body = () => {
     const [filteredData, setFilteredData] = useState(null);
     const [searchText, setSearchText] = useState("");
-    const { data, setData, loading, setLoading } = useFetch(FETCH_MAIN_URL, true);
+    const { data, setData, loading, setLoading } = useFetch(FETCH_MAIN_URL);
     const onlineStatus = useOnlineStatus();
     const RestaurantCardVegOnly = labledRestaurantCard(RestaurantCard);
 

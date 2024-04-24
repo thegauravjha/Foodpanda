@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 
-const useFetch = (url, isCORSUrl) => {
+const useFetch = (url) => {
     const [data, setData] = useState(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
@@ -17,13 +17,7 @@ const useFetch = (url, isCORSUrl) => {
             }
             // console.log("response", response);
             response = await response.json();
-            // console.log("response.json()", response);
-            // console.log("json parse", JSON.parse(response.contents));
-            if (isCORSUrl) {
-                setData(JSON.parse(response.contents));
-            } else {
-                setData(response);
-            }
+            setData(response);
         } catch (err) {
             setError(err);
         } finally {

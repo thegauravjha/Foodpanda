@@ -7,30 +7,11 @@ import RestaurantCategory from './RestaurantCategory';
 
 const RestaurentMenu = () => {
     const { resId } = useParams();
-    const { data: restaurantData, setData: setRestaurantData, loading, setLoading } = useFetch(FETCH_MENU_URL + resId, true);
+    const { data: restaurantData, setData: setRestaurantData, loading, setLoading } = useFetch(FETCH_MENU_URL + resId);
     const [cards, setCards] = useState(null);
     const [restaurantInfo, setRestaurantInfo] = useState(null);
     const [categoryCards, setCategoryCards] = useState(null);
     const [showAccordionIndex, setShowAccordionIndex] = useState(0);
-    const [showTimeoutText, setShowTimeoutText] = useState(false);
-    const [showTryAgainText, setShowTryAgainText] = useState(false);
-
-    // To check how long Shimmer is taking
-    useEffect(() => {
-        const timeout = setTimeout(() => {
-            setShowTimeoutText(true);
-        }, 10000); // 10 seconds
-
-        return () => clearTimeout(timeout);
-    }, [loading]);
-
-    useEffect(() => {
-        const timeout = setTimeout(() => {
-            setShowTryAgainText(true);
-        }, 180000); // 3 minute
-
-        return () => clearTimeout(timeout);
-    }, [loading]);
 
     useEffect(() => {
         setCards(restaurantData?.data?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR.cards);
