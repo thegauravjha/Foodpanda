@@ -27,20 +27,6 @@ const RestaurentMenu = () => {
         }
     }, [cards])
 
-    // Showing Shimmer
-    if (showTryAgainText) return (
-        <p className='main_container'>
-            Something is wrong with the API. Please TRY AGAIN later.
-        </p>
-    );
-
-    if (showTimeoutText) return (
-        <>
-            <p className='main_container'>
-                It's taking longer than it looks like. It is happening because of CORS API
-            </p>
-            <Shrimmer />
-        </>);
     if (!categoryCards) return <Shrimmer />;
     return (
         <div className='menu_container'>
